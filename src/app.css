@@ -1,0 +1,9 @@
+.AppContainer{
+  display: flex;
+  flex-direction: column;
+  flex: none;
+  align-items: center;
+
+}
+
+
