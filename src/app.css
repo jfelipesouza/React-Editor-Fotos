@@ -1,9 +1,37 @@
 .AppContainer{
   display: flex;
   flex-direction: column;
-  flex: none;
-  align-items: center;
+
 
 }
+
+.fullContainer{
+  display: flex;
+  width: 100vw;
+  height: 94vh;
+
+}
+
+.imageContainer{
+  display: flex;
+  flex:4;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: blueviolet;
+}
+
+.image{
+  width: 70%;
+}
+
+.sidebar{
+  display: flex;
+  flex: 1;
+  background-color: blue;
+
+}
+
+
+
 
 

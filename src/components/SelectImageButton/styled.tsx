@@ -9,29 +9,31 @@ export const Container = styled.div`
   height: 50px;
   align-items: center;
   justify-content: center;
-  color:#fff;
+
   text-transform: uppercase;
+  background-color: #bd1111;
+
 
 
   input[type="file"] {
     display: none;
   }
 
-  label {
-    color: #FFF;
-    text-transform: uppercase;
-    text-align: center;
-    display: flex;
-    background-color:#BD1111;
-    align-items:center;
-    justify-content: center;
-    width:100%;
-    height:100%;
-    cursor: pointer;
-  }
-  label:hover{
-    background-color: #bd1111ad;
-  }
+
 
 
 `;
+
+export const Button = styled.button`
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  background-color: #bd1111;
+  text-align: center;
+  color: #FFF;
+  width:100%;
+  height: 100%;
+  cursor: pointer;
+  font-size:1.2rem ;
+
+`
