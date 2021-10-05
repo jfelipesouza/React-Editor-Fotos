@@ -3,9 +3,6 @@ import styled from 'styled-components';
 export const Container = styled.div`
   display: flex;
   flex: 1;
-  border-width: 1px;
-  border-color: #ccc;
-  border-style: solid;
   height: 50px;
   align-items: center;
   justify-content: center;
@@ -35,5 +32,7 @@ export const Button = styled.button`
   height: 100%;
   cursor: pointer;
   font-size:1.2rem ;
-
+  border-width: 1px;
+  border-color: #ccc;
+  border-style: solid;
 `

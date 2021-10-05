@@ -48,7 +48,6 @@ const App: React.FC = () => {
 
         </div>
 
-        <br/>
         <div className = {'sidebar'}>
 
           <h1>Sidebar Buttons</h1>
