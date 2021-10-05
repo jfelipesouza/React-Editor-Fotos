@@ -12,11 +12,17 @@
 
 }
 
+@media(max-width:800px){
+  .fullContainer{
+    flex-direction: column;
+  }
+}
+
 .imageContainer{
   display: flex;
   flex:4;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   background-color: blueviolet;
 }
 

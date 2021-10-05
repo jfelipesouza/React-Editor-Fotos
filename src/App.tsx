@@ -1,7 +1,7 @@
 import React, { useState,useEffect } from 'react';
 import './app.css';
 import SelectionBar from './components/SelectionBar';
-import img from './assets/image.png';
+import img from './assets/montanhas.jpg';
 
 
 
@@ -14,7 +14,7 @@ const App: React.FC = () => {
   useEffect(()=>{
     if(image){
       const reader = new FileReader();
-      reader.onloadend = () =>{
+      reader.onloadend = () => {
         setPreview(reader.result as string);
       }
       reader.readAsDataURL(image as any)
@@ -38,7 +38,11 @@ const App: React.FC = () => {
         <div className={'imageContainer'} >
 
           {
-            image!= null? <img src={preview} alt={'image'} className='image' />: <img src={img} alt='image' />
+            image!= null
+            ?
+            <img src={preview} alt={'image'} className='image' />
+            :
+            <img src={img} alt={'image'} className={'image'} />
           }
 
 
