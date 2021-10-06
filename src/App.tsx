@@ -11,6 +11,30 @@ const App: React.FC = () => {
   const [image,setImage] = useState();
   const [preview,setPreview] = useState<any>();
 
+  const editorOptions = [
+    {
+     name:'Brightness'
+    },
+    {
+      name:'Contrast'
+    },
+    {
+      name:'Saturation'
+    },
+    {
+      name:'Greyscale',
+    },
+    {
+      name:'Sepia',
+    },
+    {
+      name:'Hue Rotate'
+    },
+    {
+      name:'Blur'
+    }
+
+  ]
 
   useEffect(()=>{
     if(image){
@@ -51,10 +75,11 @@ const App: React.FC = () => {
 
         <div className = {'sidebar'}>
 
-          <h1>Sidebar Buttons</h1>
-          <hr/>
-
-          <SiderBarButton/>
+          {
+            editorOptions.map((option,key)=>(
+              <SiderBarButton key = {key} name = {option.name}/>
+            ))
+          }
 
         </div>
 
