@@ -6,7 +6,7 @@
 
 body{
   background-color: #EBDEDE;
-
+  overflow-x: hidden;
 }
 
 body::-webkit-scrollbar{

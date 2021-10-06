@@ -22,6 +22,7 @@
 
 .image{
   width: 70%;
+  object-fit: contain;
 }
 
 .sidebar{
@@ -39,7 +40,7 @@
     width: 100vw;
   }
   .image{
-    height: 90%;
+    width: 90%;
   }
   .imageContainer{
     width: 100%;
@@ -49,7 +50,6 @@
     flex-direction: row;
     flex: none;
     overflow-x: auto;
-    width: 100%;
   }
 
 }
@@ -58,7 +58,6 @@
 @media(max-width:400px){
 
   .image{
-    height: 60%;
     width: 90%;
 
   }

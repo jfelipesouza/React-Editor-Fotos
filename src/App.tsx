@@ -65,9 +65,9 @@ const App: React.FC = () => {
           {
             image!= null
             ?
-            <img src={preview} alt={'image'} className='image' />
+            <img src={preview} alt={'imagem'} className='image' />
             :
-            <img src={img} alt={'image'} className={'image'} />
+            <img src={img} alt={'imagem'} className={'image'} />
           }
 
 

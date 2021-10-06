@@ -13,6 +13,7 @@ export const Container = styled.div`
   border-width: 2px;
   border-color: #333;
   border-style: solid;
+  min-width: 150px;
 
 
   @media(max-width:800px){
