@@ -1,5 +1,5 @@
 import React from "react";
-import { Container } from "../SelectImageButton/styled";
+import { Container } from "./styled";
 
 
 const DonwloadImageButton:React.FC = ()=>{

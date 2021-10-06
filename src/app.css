@@ -21,14 +21,15 @@
 }
 
 .image{
-  width: 80%;
+  width: 70%;
 }
 
 .sidebar{
   display: flex;
   flex: 1;
   background-color: blue;
-
+  align-items: center;
+  flex-direction: column;
 }
 
 @media(max-width:800px){
@@ -38,7 +39,7 @@
     width: 100vw;
   }
   .image{
-    width: 90%;
+    height: 90%;
   }
   .imageContainer{
     width: 100%;

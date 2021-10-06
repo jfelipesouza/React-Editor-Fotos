@@ -2,6 +2,7 @@ import React, { useState,useEffect } from 'react';
 import './app.css';
 import SelectionBar from './components/SelectionBar';
 import img from './assets/montanhas.jpg';
+import SiderBarButton from './components/SiderBarButton';
 
 
 
@@ -51,6 +52,9 @@ const App: React.FC = () => {
         <div className = {'sidebar'}>
 
           <h1>Sidebar Buttons</h1>
+          <hr/>
+
+          <SiderBarButton/>
 
         </div>
 
