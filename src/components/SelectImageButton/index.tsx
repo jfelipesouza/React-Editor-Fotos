@@ -1,14 +1,12 @@
 import React,{useRef} from 'react';
 import { Container,Button } from './styled';
-import img from '../../assets/image.png'
 
 
 interface SelectProps{
-  value?:any,
   setValue?:any,
 }
 
-const SelectImageButton: React.FC<SelectProps> = ({value,setValue}) => {
+const SelectImageButton: React.FC<SelectProps> = ({setValue}) => {
 
   const fileInputRef = useRef<HTMLInputElement>(null);
 
@@ -24,8 +22,6 @@ const SelectImageButton: React.FC<SelectProps> = ({value,setValue}) => {
 
     if(file && file.type.substr(0,5)==='image'){
       setValue(file);
-    }else{
-      setValue(img)
     }
 
 

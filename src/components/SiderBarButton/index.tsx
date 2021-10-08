@@ -3,11 +3,13 @@ import {Container} from './styled';
 
 interface SideBarButtons{
   name: String;
+  handleClick: any;
+
 }
 
-const SiderBarButton: React.FC<SideBarButtons> = ({name}) => {
+const SiderBarButton: React.FC<SideBarButtons> = ({name,handleClick}) => {
   return(
-    <Container onClick={()=>alert(`Clicou em ${name}`)} >
+    <Container onClick={handleClick} >
       {name}
     </Container>
   );

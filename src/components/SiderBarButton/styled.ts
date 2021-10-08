@@ -1,20 +1,34 @@
 import styled from "styled-components";
 
 
-export const Container = styled.div`
+export const Container = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top:2px;
   height:50px ;
   width:100%;
   background-color:#ace;
-  cursor: pointer;
-  border-width: 2px;
-  border-color: #333;
+  border-width: 1px;
+  border-color: #3335;
   border-style: solid;
   min-width: 150px;
+  font-size: 1.3rem;
+  position: relative;
 
+  &:focus{
+    background-color:#123;
+    color:#fff;
+  }
+
+  ::after{
+    content: '';
+    position: absolute;
+    width: 80%;
+    left:10%;
+    bottom: 1px;
+    height: 2px;
+    background-color: teal;
+  }
 
   @media(max-width:800px){
     margin-top:0;

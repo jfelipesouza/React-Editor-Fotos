@@ -15,9 +15,11 @@
 .imageContainer{
   display: flex;
   flex:4;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: blueviolet;
+  background-color: #dadada;
+
 }
 
 .image{
@@ -25,10 +27,14 @@
   object-fit: contain;
 }
 
+.imageUpload{
+  font-size: 4rem;
+}
+
 .sidebar{
   display: flex;
   flex: 1;
-  background-color: blue;
+  background-color: #2229;
   align-items: center;
   flex-direction: column;
 }
@@ -45,6 +51,7 @@
   .imageContainer{
     width: 100%;
     height: 100%;
+
   }
   .sidebar{
     flex-direction: row;
