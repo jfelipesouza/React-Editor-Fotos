@@ -138,7 +138,7 @@ const App: React.FC = () => {
   return (
     <div className="AppContainer">
 
-      <SelectionBar value={image} setValue={setImage} />
+      <SelectionBar setValue={setImage} />
 
       <div className={'fullContainer'} >
 

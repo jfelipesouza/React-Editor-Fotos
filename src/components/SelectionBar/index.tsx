@@ -6,15 +6,14 @@ import DonwloadImageButton from '../DownloadImageButton';
 
 
 export interface SelecitonBarProps{
-  value?:any,
   setValue?:any,
 }
 
-const SelectionBar: React.FC<SelecitonBarProps> = ({value,setValue}) => {
+const SelectionBar: React.FC<SelecitonBarProps> = ({setValue}) => {
 
   return (
     <Container>
-      <SelectImageButton value={value} setValue = {setValue} />
+      <SelectImageButton setValue = {setValue} />
       <DonwloadImageButton/>
     </Container>
   );
