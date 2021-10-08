@@ -5,19 +5,6 @@ import SiderBarButton from './components/SiderBarButton';
 import Slide from './components/Slide';
 
 
-interface OptionsProps{
-  [x: string]: any;
-  name:string,
-  property: string,
-  value: number,
-  range: {
-    min: number,
-    max: number
-  },
-  unit: string
-
-}
-
 const App: React.FC = () => {
 
   const editorOptions = [
@@ -90,7 +77,8 @@ const App: React.FC = () => {
         max: 20
       },
       unit: 'px'
-    }
+    },
+
 
   ]
 
