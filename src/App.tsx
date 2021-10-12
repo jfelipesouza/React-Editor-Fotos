@@ -83,7 +83,7 @@ const App: React.FC = () => {
   ]
 
   const [image,setImage] = useState();
-  const [preview,setPreview] = useState<any>();
+  const [preview,setPreview] = useState<string>();
   const [index, setIndex] = useState(0)
   const [options,setOptions] = useState<any>(editorOptions)
 
@@ -96,8 +96,6 @@ const App: React.FC = () => {
         setPreview(reader.result as string);
       }
       reader.readAsDataURL(image as any)
-    }else{
-      setPreview(null);
     }
 
 
