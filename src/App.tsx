@@ -62,7 +62,7 @@ const App: React.FC = () => {
                 min={selectOption.range.min}
                 max={selectOption.range.max}
                 value={selectOption.value}
-                handleChange={()=>handleSlideChange}
+                handleChange={handleSlideChange}
               />
             </>
           ) : (
