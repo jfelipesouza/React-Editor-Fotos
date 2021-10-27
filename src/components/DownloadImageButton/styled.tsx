@@ -8,9 +8,13 @@ export const Container = styled.div`
   height: 50px;
   align-items: center;
   justify-content: center;
-
+  cursor: pointer;
   text-transform: uppercase;
   background-color: #bd1111;
+
+  &:hover{
+    color:'#fff'
+  }
 
 
 `;
