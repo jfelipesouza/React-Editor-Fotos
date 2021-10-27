@@ -1,11 +1,20 @@
 import React from "react";
+import downloadImage from "./downloadFuction";
 import { Container } from "./styled";
 
+interface DownloadProps{
+  downloadPath?:string;
+}
 
-const DonwloadImageButton:React.FC = ()=>{
+
+const DonwloadImageButton:React.FC<DownloadProps> = ({downloadPath})=>{
+
+
+
+
   return(
-    <Container>
-        Download
+    <Container onClick={()=>downloadImage()} >
+      Download
     </Container>
   )
 }

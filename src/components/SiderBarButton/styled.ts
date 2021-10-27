@@ -14,6 +14,7 @@ export const Container = styled.button`
   min-width: 150px;
   font-size: 1.3rem;
   position: relative;
+  cursor: pointer;
 
   &:focus{
     background-color:#123;
