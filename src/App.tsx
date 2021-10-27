@@ -44,7 +44,7 @@ const App: React.FC = () => {
 
   return (
     <div className="AppContainer">
-      <SelectionBar setValue={setImage} downloadPath = {preview} />
+      <SelectionBar setValue={setImage} />
 
       <div className={"fullContainer"}>
         <div className={"imageContainer"}>

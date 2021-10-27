@@ -49,5 +49,7 @@ Pretendo desenvolver este projeto com a criação de novas funcionalidades e cor
 
 ## Agradecimento
 
-<p aling='justify'>Este projeto me foi inicialmente apresentado como um desafio feito pelo meu amigo Myck William e de fato foi desafiador em algumas partes e sem sombra de duvidas deveras agregador a minha experiência como desenvolvedor. Este projeto embora tenha sido simples me permitiu exercitar alguns conhecimentos em React e typescript e me proporcionou aprender a lidar com muitas outras coisas que utilizarei, agora, diariamente. Caso tenha gostado da ideia do projeto e tenha tido uma ideia de como altera-lo peço que gere uma issues ou caso prefira gerar um fork do projeto mande um PR com suas alterações para mim.
-Toda contribuição é sempre bem-vinda :grin:.</p>
+<p aling='justify'>
+Este projeto me foi inicialmente apresentado como um desafio feito pelo meu amigo Myck William e de fato foi desafiador em algumas partes e sem sombra de duvidas deveras agregador a minha experiência como desenvolvedor. Este projeto embora tenha sido simples me permitiu exercitar alguns conhecimentos em React e typescript e me proporcionou aprender a lidar com muitas outras coisas que utilizarei, agora, diariamente. Caso tenha gostado da ideia do projeto e tenha tido uma ideia de como altera-lo peço que gere uma issues ou caso prefira gerar um fork do projeto mande um PR com suas alterações para mim.
+Toda contribuição é sempre bem-vinda :grin:.
+</p>

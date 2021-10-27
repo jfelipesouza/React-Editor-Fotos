@@ -5,14 +5,13 @@ import DonwloadImageButton from "../DownloadImageButton";
 
 export interface SelecitonBarProps {
   setValue?: any;
-  downloadPath?:string;
 }
 
-const SelectionBar: React.FC<SelecitonBarProps> = ({ setValue,downloadPath }) => {
+const SelectionBar: React.FC<SelecitonBarProps> = ({ setValue }) => {
   return (
     <Container>
       <SelectImageButton setValue={setValue} />
-      <DonwloadImageButton downloadPath = {downloadPath} />
+      <DonwloadImageButton />
     </Container>
   );
 };
