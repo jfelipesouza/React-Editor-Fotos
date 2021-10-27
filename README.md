@@ -46,6 +46,7 @@ Pretendo desenvolver este projeto com a criação de novas funcionalidades e cor
 - Uso de context api para melhor gerenciamento dos estados entre components;
 - Melhorar a sua interface afim de deixa-lo mais intuitivo;
 - Criação de funcionalidades de recortes da imagem;
+- Substituir todas as estilizações feitas em arquivos css por components criados com o styled-components;
 
 ## Agradecimento
 
