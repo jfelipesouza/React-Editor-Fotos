@@ -19,9 +19,8 @@ O usuario deve fazer upload de uma imagem e caso desejar o mesmo deve fazer o do
 ## Veja em produção
 Acesse o site https://reacteditorimages.netlify.app/ e edite suas fotos
 
-### Sinta-se livre para editar o projeto
-
-## Como Começar a Usar
+## Sinta-se livre para editar o projeto
+### Como Começar a Usar
 
 Ao clonar o repositorio ou gerar um fork do mesmo utilise o comando 'yarn' ou 'npm install' para baixar as dependencias e em seguida utilize o comando 'yarn start' para executar o projeto. Abaixo estão os comandos prontos para copiar e colar no terminal.
 
